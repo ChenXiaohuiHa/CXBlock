@@ -13,6 +13,8 @@
 		C05DF3EE21BA71DA00EE57C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C05DF3ED21BA71DA00EE57C1 /* Assets.xcassets */; };
 		C05DF3F121BA71DA00EE57C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C05DF3EF21BA71DA00EE57C1 /* LaunchScreen.storyboard */; };
 		C05DF3F421BA71DA00EE57C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DF3F321BA71DA00EE57C1 /* main.m */; };
+		C05DF3FC21BA730800EE57C1 /* CXShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DF3FB21BA730800EE57C1 /* CXShowImageViewController.m */; };
+		C05DF3FF21BA73F300EE57C1 /* CXDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C05DF3FE21BA73F300EE57C1 /* CXDownloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		C05DF3F021BA71DA00EE57C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C05DF3F221BA71DA00EE57C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C05DF3F321BA71DA00EE57C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C05DF3FA21BA730800EE57C1 /* CXShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXShowImageViewController.h; sourceTree = "<group>"; };
+		C05DF3FB21BA730800EE57C1 /* CXShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXShowImageViewController.m; sourceTree = "<group>"; };
+		C05DF3FD21BA73F300EE57C1 /* CXDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXDownloader.h; sourceTree = "<group>"; };
+		C05DF3FE21BA73F300EE57C1 /* CXDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CXDownloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 				C05DF3E721BA71D900EE57C1 /* ViewController.h */,
 				C05DF3E821BA71D900EE57C1 /* ViewController.m */,
 				C05DF3EA21BA71D900EE57C1 /* Main.storyboard */,
+				C05DF3FA21BA730800EE57C1 /* CXShowImageViewController.h */,
+				C05DF3FB21BA730800EE57C1 /* CXShowImageViewController.m */,
+				C05DF3FD21BA73F300EE57C1 /* CXDownloader.h */,
+				C05DF3FE21BA73F300EE57C1 /* CXDownloader.m */,
 				C05DF3ED21BA71DA00EE57C1 /* Assets.xcassets */,
 				C05DF3EF21BA71DA00EE57C1 /* LaunchScreen.storyboard */,
 				C05DF3F221BA71DA00EE57C1 /* Info.plist */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05DF3FC21BA730800EE57C1 /* CXShowImageViewController.m in Sources */,
 				C05DF3E921BA71D900EE57C1 /* ViewController.m in Sources */,
 				C05DF3F421BA71DA00EE57C1 /* main.m in Sources */,
 				C05DF3E621BA71D900EE57C1 /* AppDelegate.m in Sources */,
+				C05DF3FF21BA73F300EE57C1 /* CXDownloader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
